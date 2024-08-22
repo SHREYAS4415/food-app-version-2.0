@@ -157,7 +157,7 @@ class _MenuHomeState extends State<MenuHome> {
                       ),
                     ),
                   ),
-SizedBox(width: 12,),
+SizedBox(width: 8,),
                   GestureDetector(
                     onTap: () {
                       changeMenu("Breakfast");
@@ -170,7 +170,7 @@ SizedBox(width: 12,),
                                   )));
                     },
                     child: Container(
-                      width: 180,
+                      width: 165,
                       // Set the width of the container to full width
                       decoration: BoxDecoration(
                           color: Colors.white,
@@ -345,7 +345,7 @@ SizedBox(width: 12,),
                           ),
                         ),
                       ),
-                      SizedBox(width: 12,),
+                      SizedBox(width: 8,),
                       GestureDetector(
                         onTap: () {
                           changeMenu("Dinner");
@@ -360,7 +360,7 @@ SizedBox(width: 12,),
                         },
                         child: Container(
 
-                          width: 180,
+                          width: 165,
                           // Set the width of the container to full width
                           decoration: BoxDecoration(
                               color: Colors.white,
